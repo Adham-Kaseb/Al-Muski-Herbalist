@@ -12,7 +12,7 @@ body {
   font-family: "Cairo", sans-serif;
   background: #0c0b09;
   color: #fff;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 a {
@@ -167,7 +167,7 @@ section {
 \*-----------------------------------*/
 #topbar {
   height: 40px;
-  font-size: 14px;
+  font-size: 12px;
   transition: all 0.5s;
   z-index: 996;
 }
