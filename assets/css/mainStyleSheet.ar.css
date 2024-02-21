@@ -12,6 +12,7 @@ body {
   font-family: "Cairo", sans-serif;
   background: #0c0b09;
   color: #fff;
+  overflow-x: hidden;
 }
 
 a {
@@ -1207,26 +1208,10 @@ section {
 
 #footer .credits {
   padding-top: 10px;
-  text-align: center;
+  text-align: center !important;
   font-size: 13px;
   color: #fff;
   position: relative;
   transition: all ease 1s;
   word-spacing: 2px;
-}
-
-#footer .credits::after {
-  content: '01120610381';
-  position: absolute;
-  height: 13px;
-  padding: 5px 10px;
-  bottom: 20px;
-  font-size: 20px;
-  right: 205px;
-  opacity: 0;
-  transition: all ease 1s;
-}
-
-#footer .credits:hover::after {
-  opacity: 1;
 }
